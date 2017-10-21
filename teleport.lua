@@ -1,6 +1,7 @@
 -- teleports a unit to a location
 -- author Putnam
 -- edited by expwnent
+--@module = true
 --[====[
 
 teleport
@@ -11,6 +12,8 @@ Teleports a unit to given coordinates.  Examples:
 :teleport -showpos:     prints coordinates beneath cursor
 :teleport -unit 1234 -x 56 -y 115 -z 26:
                         teleports unit 1234 to 56,115,26
+
+See `gui/teleport` for an in-game UI.
 
 ]====]
 
